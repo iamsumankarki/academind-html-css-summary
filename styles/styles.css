@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(244, 234, 255);
+  font-family: "Roboto", sans-serif;
+  margin: 10px 0;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(88, 49, 196);
+  font-size: 52px;
+  margin: 0 0 25px 0;
+}
+
+img {
+  width: 300px;
+}
+
+main {
+  background-color: rgb(112, 74, 218);
+  border-radius: 8px;
+  color: rgb(248, 241, 255);
+  margin: 60px auto 20px;
+  padding: 40px 30px 20px;
+  max-width: 700px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  border-left: 5px solid transparent;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  color: rgb(131, 113, 149);
+  margin-top: 15px;
+}
+
+.summary-item {
+  margin-bottom: 20px;
+}
+
+.extra-important {
+  border-left-color: rgb(247, 209, 85);
+  color: rgb(255, 237, 177);
+}
+
+.highlight-bg {
+  background-color: rgb(255, 237, 177);
+  border-radius: 4px;
+  color: rgb(36, 3, 102);
+  display: inline-block;
+  padding: 2px 6px;
+  text-decoration: none;
+}
+
+.highlight-bg:active,
+.highlight-bg:hover {
+  background-color: rgb(250, 201, 39);
+}
+
+.button {
+  background-color: rgb(250, 201, 39);
+  border-radius: 8px;
+  color: rgb(66, 51, 4);
+  display: inline-block;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+.button:active,
+.button:hover {
+  background-color: rgb(255, 186, 58);
+}
